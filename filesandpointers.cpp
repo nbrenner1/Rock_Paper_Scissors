@@ -2,9 +2,9 @@
 // Program name: A2: Files and Pointers
 // Author: Nick Brenner
 // Functionality: This code reads in from a file entitled "students_scores.txt"
-// 				        before determining the min and max score for each student as well as
-// 			          sorting the students' scores from lowest to highest. If a negative score
-// 			          is found, an error message is displayed for that student.
+// 		  before determining the min and max score for each student as well as
+// 		  sorting the students' scores from lowest to highest. If a negative score
+// 		  is found, an error message is displayed for that student.
 //*******************************************************************************************
 
 #include <iostream>
@@ -122,7 +122,7 @@ int main()
 		    }
             
             studentScores[i]=num_float;        // Add number to array of student scores
-            i++;							   // Increment to fill next array "bucket" on following loop
+            i++;                               // Increment to fill next array "bucket" on following loop
 			
             for (int a=0; a<i; a++)            // Check array for negatives
             {
